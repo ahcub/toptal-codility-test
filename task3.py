@@ -13,3 +13,5 @@ def solution(A, B):
     return biggest_div + ((biggest_div + A + B) % 2)
 
 print(solution(1, 4))
+
+# -100 000...100 000

@@ -1,7 +1,9 @@
 
-a = [-1, 3, -4, 5, 1, -6, 2, 1]
-a = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-a = [2, -1, -2, 1, 500]
+test_arrays = [
+    [-1, 3, -4, 5, 1, -6, 2, 1],
+    [1, 2, 3, 4, 5, 6, 7, 8, 9],
+    [2, -1, -2, 1, 500],
+]
 
 
 def solution(A):
@@ -21,5 +23,5 @@ def solution(A):
 
     return equilibrium_index
 
-
-print(solution(a))
+for a in test_arrays:
+    print(solution(a))
